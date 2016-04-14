@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>422</width>
+    <height>225</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ETAmatik Portakal</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../Masaüstü/work/website/images/pardus-kafa.png</normaloff>../../Masaüstü/work/website/images/pardus-kafa.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <widget class="QLabel" name="label_6">
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Pardus ETAP Otomatik Giriş USB Diski Oluşturma Aracı</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="Line" name="line">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QLabel" name="label_2">
+          <property name="text">
+           <string>Kullanıcı Adı:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_3">
+          <property name="text">
+           <string>Parola:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_4">
+          <property name="text">
+           <string>EBA Kullanıcı Adı:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_5">
+          <property name="text">
+           <string>EBA Parola:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>USB Disk:</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QLineEdit" name="txtUsername"/>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="txtPassword"/>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="txtEBAUsername"/>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="txtEBAPassword"/>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboUSB"/>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>8</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="Line" name="line_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_6">
+      <item>
+       <widget class="QPushButton" name="btnClear">
+        <property name="text">
+         <string>Alanları Temizle</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnSubmit">
+        <property name="text">
+         <string>Bilgileri USB Diske Kaydet</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+   <zorder></zorder>
+   <zorder>btnClear</zorder>
+   <zorder>btnSubmit</zorder>
+   <zorder>comboUSB</zorder>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_5</zorder>
+   <zorder>txtUsername</zorder>
+   <zorder>txtPassword</zorder>
+   <zorder>txtEBAUsername</zorder>
+   <zorder>txtEBAPassword</zorder>
+   <zorder>label</zorder>
+   <zorder>verticalSpacer</zorder>
+   <zorder>label_6</zorder>
+   <zorder>line</zorder>
+   <zorder>line_2</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
